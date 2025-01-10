@@ -6,6 +6,8 @@ import { FcGoogle } from 'react-icons/fc';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import Swal from 'sweetalert2'; // SweetAlert for error handling
 import '../styles/SignUp.css';
+import { Link } from 'react-router-dom';
+
 
 function SignUp() {
   const [isPasswordVisible, setIsPasswordVisible] = useState(false);
@@ -194,8 +196,8 @@ function SignUp() {
               </button>
             </div>
             <p className="para">
-              Already have an account? <a href="/signin">Sign in</a>
-            </p>
+  Already have an account? <Link to="/signin">Sign in</Link>
+</p>
           </div>
         </div>
        
