@@ -85,7 +85,7 @@ function SignUp() {
     <div className="signup-container">
       <div className="signup-content">
       <div className="signup-right">
-          <h1>Welcome to Filuick Pay!</h1>
+          <h1>Welcome to FleetOptimyze!</h1>
           <p>Join us today to experience seamless transactions and financial management!</p>
           <img
             src={design}
